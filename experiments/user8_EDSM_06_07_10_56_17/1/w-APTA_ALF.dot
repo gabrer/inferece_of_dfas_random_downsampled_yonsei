@@ -1,0 +1,24 @@
+digraph APTAALF {
+__start0 [style = invis, shape = none, label = "", width = 0, height = 0];
+
+rankdir=LR;
+size="8,5";
+
+s0 [style="filled", color="black", fillcolor="#ff817b" shape="circle", label="q0"];
+s1 [style="rounded,filled", color="black", fillcolor="powderblue" shape="doublecircle", label="q1"];
+s2 [style="filled", color="black", fillcolor="white" shape="circle", label="q2"];
+s3 [style="filled", color="black", fillcolor="white" shape="circle", label="q3"];
+s4 [style="rounded,filled", color="black", fillcolor="white" shape="doublecircle", label="q4"];
+s5 [style="filled", color="black", fillcolor="white" shape="circle", label="q5"];
+subgraph cluster_main { 
+	graph [pad=".75", ranksep="0.15", nodesep="0.15"];
+	 style=invis; 
+	__start0 -> s0 [penwidth=2];
+}
+s0 -> s1 [label="y"];
+s1 -> s2 [label="m"];
+s1 -> s3 [label="t"];
+s2 -> s4 [label="y"];
+s3 -> s5 [label="y"];
+
+}

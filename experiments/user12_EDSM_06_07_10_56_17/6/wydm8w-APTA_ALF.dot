@@ -1,0 +1,80 @@
+digraph APTAALF {
+__start0 [style = invis, shape = none, label = "", width = 0, height = 0];
+
+rankdir=LR;
+size="8,5";
+
+s0 [style="filled", color="black", fillcolor="#ff817b" shape="circle", label="q0"];
+s1 [style="rounded,filled", color="black", fillcolor="powderblue" shape="doublecircle", label="q1"];
+s2 [style="rounded,filled", color="black", fillcolor="powderblue" shape="doublecircle", label="q2"];
+s3 [style="filled", color="black", fillcolor="powderblue" shape="circle", label="q3"];
+s4 [style="rounded,filled", color="black", fillcolor="powderblue" shape="doublecircle", label="q4"];
+s5 [style="filled", color="black", fillcolor="powderblue" shape="circle", label="q5"];
+s6 [style="rounded,filled", color="black", fillcolor="powderblue" shape="doublecircle", label="q6"];
+s7 [style="rounded,filled", color="black", fillcolor="powderblue" shape="doublecircle", label="q7"];
+s8 [style="filled", color="black", fillcolor="powderblue" shape="circle", label="q8"];
+s9 [style="filled", color="black", fillcolor="powderblue" shape="circle", label="q9"];
+s10 [style="rounded,filled", color="black", fillcolor="powderblue" shape="doublecircle", label="q10"];
+s11 [style="filled", color="black", fillcolor="powderblue" shape="circle", label="q11"];
+s12 [style="rounded,filled", color="black", fillcolor="powderblue" shape="doublecircle", label="q12"];
+s13 [style="rounded,filled", color="black", fillcolor="powderblue" shape="doublecircle", label="q13"];
+s14 [style="rounded,filled", color="black", fillcolor="powderblue" shape="doublecircle", label="q14"];
+s15 [style="rounded,filled", color="black", fillcolor="powderblue" shape="doublecircle", label="q15"];
+s16 [style="rounded,filled", color="black", fillcolor="powderblue" shape="doublecircle", label="q16"];
+s17 [style="rounded,filled", color="black", fillcolor="powderblue" shape="doublecircle", label="q17"];
+s18 [style="rounded,filled", color="black", fillcolor="powderblue" shape="doublecircle", label="q18"];
+s19 [style="rounded,filled", color="black", fillcolor="white" shape="doublecircle", label="q19"];
+s20 [style="filled", color="black", fillcolor="white" shape="circle", label="q20"];
+s21 [style="filled", color="black", fillcolor="white" shape="circle", label="q21"];
+s22 [style="filled", color="black", fillcolor="white" shape="circle", label="q22"];
+s23 [style="rounded,filled", color="black", fillcolor="white" shape="doublecircle", label="q23"];
+s24 [style="filled", color="black", fillcolor="white" shape="circle", label="q24"];
+s25 [style="filled", color="black", fillcolor="white" shape="circle", label="q25"];
+s26 [style="filled", color="black", fillcolor="white" shape="circle", label="q26"];
+s27 [style="rounded,filled", color="black", fillcolor="white" shape="doublecircle", label="q27"];
+s28 [style="filled", color="black", fillcolor="white" shape="circle", label="q28"];
+s29 [style="filled", color="black", fillcolor="white" shape="circle", label="q29"];
+s30 [style="rounded,filled", color="black", fillcolor="white" shape="doublecircle", label="q30"];
+s31 [style="filled", color="black", fillcolor="white" shape="circle", label="q31"];
+s32 [style="rounded,filled", color="black", fillcolor="white" shape="doublecircle", label="q32"];
+s33 [style="rounded,filled", color="black", fillcolor="white" shape="doublecircle", label="q33"];
+subgraph cluster_main { 
+	graph [pad=".75", ranksep="0.15", nodesep="0.15"];
+	 style=invis; 
+	__start0 -> s0 [penwidth=2];
+}
+s0 -> s1 [label="0"];
+s0 -> s2 [label="1"];
+s0 -> s3 [label="2"];
+s0 -> s4 [label="3"];
+s0 -> s5 [label="4"];
+s0 -> s6 [label="6"];
+s0 -> s7 [label="9"];
+s0 -> s8 [label="c"];
+s0 -> s9 [label="d"];
+s0 -> s10 [label="e"];
+s0 -> s11 [label="f"];
+s0 -> s12 [label="g"];
+s0 -> s13 [label="h"];
+s0 -> s14 [label="j"];
+s0 -> s15 [label="n"];
+s0 -> s16 [label="q"];
+s0 -> s17 [label="x"];
+s0 -> s18 [label="z"];
+s1 -> s19 [label="3"];
+s1 -> s20 [label="4"];
+s2 -> s21 [label="0"];
+s2 -> s22 [label="3"];
+s2 -> s23 [label="9"];
+s2 -> s24 [label="c"];
+s2 -> s25 [label="d"];
+s2 -> s26 [label="f"];
+s3 -> s27 [label="0"];
+s4 -> s28 [label="g"];
+s5 -> s29 [label="0"];
+s7 -> s30 [label="1"];
+s11 -> s31 [label="1"];
+s16 -> s32 [label="3"];
+s19 -> s33 [label="d"];
+
+}

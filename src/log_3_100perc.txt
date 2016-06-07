@@ -1,0 +1,2253 @@
+utente: 3
+Training proportion: 100
+DB path is: ../../yonsei.db
+User: 3
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+Esperimento 0.01
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////
+"Experiments" folder checked
+Current experiment directory is: 
+/home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/
+Selected algorithms are: 
+BlueStar
+Database path: ../../yonsei.db
+Lunghezza minima dei prefissi: 1
+
+
+
+***************************************************
+***************************************************
+---------- PREFISSI DI LUNGHEZZA 1, utente 3 -----------
+***************************************************
+***************************************************
+
+2 prefixes of length 1, limit to ALL
+
+
+***************************************************
+------> Current Prefix: 9 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: w - Utente 3 <--------
+***************************************************
+ - Scrivo su file i samples -
+Prefisso: w
+Numero sample positivi: 28
+Numero sample negativi: 47
+Totale positive: 28. Totali negative: 47
+SET DOWNSAMPLED: 28
+END: Positive DOWNSAMPLED SET: 28
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 2
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 1 samples positivi e 2 negativi
+
+********  BLUESTAR w-cv: 0 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/1/w-3-samples-CV0.txt
+1 positivi
+2 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 28 e 2
+ START BlueStar inference process...
+
+ERR: Approximation conditions to Normal Distributions are not satisfied.
+ERR: Details: p: 0.05, q: 0.95, N: 30
+ERR: N*p: 1.5, N*q: 28.5
+ERR: The process stop!
+Constraints approximation to Normal Gaussian distr not satisfied
+This inference process is stopped with no DFA; 
+ >---------------------------------------< 
+
+
+
+***************************************************
+***************************************************
+---------- PREFISSI DI LUNGHEZZA 2, utente 3 -----------
+***************************************************
+***************************************************
+
+2 prefixes of length 2, limit to ALL
+
+
+***************************************************
+------> Current Prefix: 9w - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wy - Utente 3 <--------
+***************************************************
+ - Scrivo su file i samples -
+Prefisso: wy
+Numero sample positivi: 31
+Numero sample negativi: 136
+Totale positive: 31. Totali negative: 136
+SET DOWNSAMPLED: 31
+END: Positive DOWNSAMPLED SET: 31
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 89
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 5 samples positivi e 32 negativi
+
+********  BLUESTAR wy-cv: 0 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/2/wy-3-samples-CV0.txt
+5 positivi
+32 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 31 e 89
+ START BlueStar inference process...
+
+ERR: Approximation conditions to Normal Distributions are not satisfied.
+ERR: Details: p: 0.0416667, q: 0.958333, N: 120
+ERR: N*p: 5, N*q: 115
+ERR: The process stop!
+Constraints approximation to Normal Gaussian distr not satisfied
+This inference process is stopped with no DFA; 
+ >---------------------------------------< 
+
+
+
+***************************************************
+***************************************************
+---------- PREFISSI DI LUNGHEZZA 3, utente 3 -----------
+***************************************************
+***************************************************
+
+4 prefixes of length 3, limit to ALL
+
+
+***************************************************
+------> Current Prefix: 9w4 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wy7 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wyd - Utente 3 <--------
+***************************************************
+ - Scrivo su file i samples -
+Prefisso: wyd
+Numero sample positivi: 105
+Numero sample negativi: 397
+Totale positive: 105. Totali negative: 397
+SET DOWNSAMPLED: 105
+END: Positive DOWNSAMPLED SET: 105
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 160
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 16 samples positivi e 85 negativi
+
+********  BLUESTAR wyd-cv: 0 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/3/wyd-3-samples-CV0.txt
+16 positivi
+85 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 105 e 160
+ START BlueStar inference process...
+FINALE
+TP: 105 TN: 0 FP: 160 FN: 0 F-measure: 0.567568
+Precision:  0.396226; Recall: 1
+Correttamente identificate di 105 un totale di: 105
+Correttamente identificate di 160 un totale di: 0
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/3/wyd-3A-DOTbluestarALF-CV0.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/3/wyd-3A-CV0-TXTbluestarALF.txt
+
+
+
+***************************************************
+------> Current Prefix: wye - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+***************************************************
+---------- PREFISSI DI LUNGHEZZA 4, utente 3 -----------
+***************************************************
+***************************************************
+
+9 prefixes of length 4, limit to ALL
+
+
+***************************************************
+------> Current Prefix: 9w46 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wy7d - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydj - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydk - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm - Utente 3 <--------
+***************************************************
+ - Scrivo su file i samples -
+Prefisso: wydm
+Numero sample positivi: 261
+Numero sample negativi: 1238
+Totale positive: 261. Totali negative: 1238
+SET DOWNSAMPLED: 261
+END: Positive DOWNSAMPLED SET: 261
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 984
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 110 samples positivi e 377 negativi
+
+********  BLUESTAR wydm-cv: 0 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/4/wydm-3-samples-CV0.txt
+110 positivi
+377 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 261 e 984
+ START BlueStar inference process...
+FINALE
+TP: 261 TN: 85 FP: 899 FN: 0 F-measure: 0.367347
+Precision:  0.225; Recall: 1
+Correttamente identificate di 261 un totale di: 261
+Correttamente identificate di 984 un totale di: 85
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/4/wydm-3A-DOTbluestarALF-CV0.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/4/wydm-3A-CV0-TXTbluestarALF.txt
+
+
+
+***************************************************
+------> Current Prefix: wydn - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydq - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydw - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wyem - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+***************************************************
+---------- PREFISSI DI LUNGHEZZA 5, utente 3 -----------
+***************************************************
+***************************************************
+
+35 prefixes of length 5, limit to ALL
+
+
+***************************************************
+------> Current Prefix: 9w461 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wy7d6 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydj7 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjq - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjr - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjw - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjx - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjz - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydkf - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydkg - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm0 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm1 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm2 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm3 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm4 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm5 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm6 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm7 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm8 - Utente 3 <--------
+***************************************************
+ - Scrivo su file i samples -
+Prefisso: wydm8
+Numero sample positivi: 156
+Numero sample negativi: 602
+Totale positive: 156. Totali negative: 602
+SET DOWNSAMPLED: 156
+END: Positive DOWNSAMPLED SET: 156
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 349
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 70 samples positivi e 175 negativi
+
+********  BLUESTAR wydm8-cv: 0 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/5/wydm8-3-samples-CV0.txt
+70 positivi
+175 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 156 e 349
+ START BlueStar inference process...
+FINALE
+TP: 156 TN: 166 FP: 183 FN: 0 F-measure: 0.630303
+Precision:  0.460177; Recall: 1
+Correttamente identificate di 156 un totale di: 156
+Correttamente identificate di 349 un totale di: 166
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/5/wydm8-3A-DOTbluestarALF-CV0.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/5/wydm8-3A-CV0-TXTbluestarALF.txt
+
+
+
+***************************************************
+------> Current Prefix: wydm9 - Utente 3 <--------
+***************************************************
+ - Scrivo su file i samples -
+Prefisso: wydm9
+Numero sample positivi: 88
+Numero sample negativi: 191
+Totale positive: 88. Totali negative: 191
+SET DOWNSAMPLED: 88
+END: Positive DOWNSAMPLED SET: 88
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 161
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 50 samples positivi e 82 negativi
+
+********  BLUESTAR wydm9-cv: 0 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/5/wydm9-3-samples-CV0.txt
+50 positivi
+82 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 88 e 161
+ START BlueStar inference process...
+FINALE
+TP: 88 TN: 35 FP: 126 FN: 0 F-measure: 0.582781
+Precision:  0.411215; Recall: 1
+Correttamente identificate di 88 un totale di: 88
+Correttamente identificate di 161 un totale di: 35
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/5/wydm9-3A-DOTbluestarALF-CV0.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/5/wydm9-3A-CV0-TXTbluestarALF.txt
+
+
+
+***************************************************
+------> Current Prefix: wydmc - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmd - Utente 3 <--------
+***************************************************
+ - Scrivo su file i samples -
+Prefisso: wydmd
+Numero sample positivi: 65
+Numero sample negativi: 62
+Totale positive: 65. Totali negative: 62
+SET DOWNSAMPLED: 65
+END: Positive DOWNSAMPLED SET: 65
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 36
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 50 samples positivi e 24 negativi
+
+********  BLUESTAR wydmd-cv: 0 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/5/wydmd-3-samples-CV0.txt
+50 positivi
+24 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 65 e 36
+ START BlueStar inference process...
+
+ERR: Approximation conditions to Normal Distributions are not satisfied.
+ERR: Details: p: 0.0445545, q: 0.955446, N: 101
+ERR: N*p: 4.5, N*q: 96.5
+ERR: The process stop!
+Constraints approximation to Normal Gaussian distr not satisfied
+This inference process is stopped with no DFA; 
+ >---------------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydme - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmf - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmg - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmk - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydms - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmz - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydnj - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydq0 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydq5 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydw1 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydwe - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydwm - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wyemb - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+***************************************************
+---------- PREFISSI DI LUNGHEZZA 6, utente 3 -----------
+***************************************************
+***************************************************
+
+193 prefixes of length 6, limit to ALL
+
+
+***************************************************
+------> Current Prefix: 9w4611 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wy7d67 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydj75 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjqx - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjrb - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjrc - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjrx - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjwb - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjx2 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjx7 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjx8 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjxc - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjxd - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjxf - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjxg - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjxh - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjxt - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjxu - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjxx - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjxy - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydjz8 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydkfm - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydkgr - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm0g - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm0r - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm0u - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm0y - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm15 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm1h - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm1n - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm1q - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm1w - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm1x - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm20 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm2v - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm2z - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm37 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm38 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm39 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm3d - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm3e - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm3g - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm3m - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm3n - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm3p - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm3q - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm3r - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm3t - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm3u - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm3v - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm3w - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm3y - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm3z - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm4e - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm4g - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm4s - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm4t - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm4u - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm4x - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm5h - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm5j - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm5q - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm5x - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm61 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm62 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm65 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm67 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm6h - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm6j - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm6k - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm6m - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm6n - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm6p - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm6q - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm6r - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm6w - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm7m - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm7n - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm7p - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm80 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm81 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm84 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm85 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm87 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm89 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm8c - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm8d - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm8e - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm8f - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm8g - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm8h - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm8j - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm8k - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm8m - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm8q - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm8s - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm8t - Utente 3 <--------
+***************************************************
+ - Scrivo su file i samples -
+Prefisso: wydm8t
+Numero sample positivi: 37
+Numero sample negativi: 136
+Totale positive: 37. Totali negative: 136
+SET DOWNSAMPLED: 37
+END: Positive DOWNSAMPLED SET: 37
+Scritture su file dei samples...
+Dopo il aver tolto ripetizioni intrastringhe e tolto samples comuni tra pos e neg, i neg sono: 97
+Ci sono stati doppioni tra pos e neg
+Scrittura su file del training set (positivi e negativi)
+Su file sono presenti 13 samples positivi e 79 negativi
+
+********  BLUESTAR wydm8t-cv: 0 *********
+Reading strings from txt file: 
+/home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/6/wydm8t-3-samples-CV0.txt
+13 positivi
+79 negativi
+Costruzione APTA...
+PTA costruito
+Totale tot_wn_w: 37 e 97
+ START BlueStar inference process...
+FINALE
+TP: 37 TN: 63 FP: 34 FN: 0 F-measure: 0.685185
+Precision:  0.521127; Recall: 1
+Correttamente identificate di 37 un totale di: 37
+Correttamente identificate di 97 un totale di: 63
+BLUSTAR DFA A path: /home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/6/wydm8t-3A-DOTbluestarALF-CV0.dot
+BLUSTAR DFA TXT path: /home/gnds/Dropbox/workspace_github_cpp/inferece_of_dfas_random_downsampled_yonsei/experiments/user3_EDSM_06_07_10_56_17/6/wydm8t-3A-CV0-TXTbluestarALF.txt
+
+
+
+***************************************************
+------> Current Prefix: wydm8v - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm8w - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm90 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm91 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm92 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm93 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm95 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm96 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm97 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm98 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm99 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm9b - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm9c - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm9f - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm9g - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm9h - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm9k - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm9m - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm9q - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm9r - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm9t - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm9u - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm9w - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydm9z - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmc1 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmc2 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmc8 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmd0 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmd1 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmd2 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmd3 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmd4 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmd5 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmd6 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmd7 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmdb - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmdc - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmdd - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmde - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmdg - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmdh - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmdj - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmdm - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmdn - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmdp - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmdq - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmdr - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmds - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmdt - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmdu - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmdv - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmdx - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmdy - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmdz - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydme1 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmec - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmee - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmeg - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmeh - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmej - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmen - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmep - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmeq - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmeu - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmf2 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmf8 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmfb - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmfd - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmfg - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmfs - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmfv - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmfx - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmg4 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmg5 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmgc - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmgk - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmgn - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmk2 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmk3 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmk6 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmk9 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmkd - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmkn - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydms5 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmsv - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydmzv - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydnjh - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydq03 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydq07 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydq59 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydq5s - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydw16 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydwem - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wydwm3 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wyemb1 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
+
+
+
+***************************************************
+------> Current Prefix: wyemb2 - Utente 3 <--------
+***************************************************
+Size of dataset too small 
+ >-------------------------------< 
