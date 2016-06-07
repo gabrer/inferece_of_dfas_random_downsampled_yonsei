@@ -81,7 +81,7 @@ int main(int argc, char* argv[]){
 	int		max_l_prefix = 7;				// Ex: se metti 2, il prefisso è lungo 1 mentre la cella è identificata da stringa l=2:avremo quindi prefix: "w" e cella "wy", "w3", etc
 	bool 	no_repetitions_inside_strings = true;
 	//int		train_prop = 100;
-	int		num_of_random_sets = 1;
+	int		num_of_random_sets = 10;
 	bool 	bluestar = true;
 	double 	alpha = 0.01; 	//0.05 //0.025
 	double 	delta = 1000.0;
